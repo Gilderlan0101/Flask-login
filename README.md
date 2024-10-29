@@ -47,7 +47,7 @@ class User(UserMixin):  #  Permitindo que a class User use metodos do flask logi
     def __init__(self, id ):
         self.id = id
 
-# simulando banco de dados
+
 # Simulando banco de dados com ID e senha
 users = {
     'Gilderlan': {'id': '1', 'password': 'brazil'}
